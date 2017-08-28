@@ -1,0 +1,167 @@
+body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+#cover {
+   /* background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat center bottom;*/
+    height: 620px;
+    position: relative;
+    top: -55px;
+    width: 100%;
+    background-size: cover;
+    background-attachment:fixed;
+}
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+}
+
+.navigation {
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 10000;
+}
+
+.navigation ul {
+    padding: 0;
+}
+.navigation .toleft{
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 10000;
+
+}
+.navigation li {
+    color: #14213D;
+    display: inline-block;
+    font-family: 'Abel', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 16px 20px;
+    text-transform: uppercase;
+
+}
+.navigation img{
+    float: left;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
+}
+
+.navigation #logo {
+    color: #FCA311;
+    font-family: 'Amatic SC', cursive;
+    font-size: 32px;
+    padding: 0px 50px;
+}
+
+.cover-content {
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 400px;
+    width: 70%;
+}
+
+h1 {
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-size: 65px;
+    line-height: 60px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+
+h3 {
+    color: #14213D;
+    font-family: 'Abel', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #FCA311;
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+    margin: 0px 0px 50px 0px;
+}
+
+p {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #14213D;
+    color: #FFF;
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    padding: 14px;
+    background-image: -webkit-linear-gradient(#ff0000, #00ff00);
+}
+
+.products {
+    background: #EEEFF1;
+    box-sizing: border-box;
+    width: 97%;
+    margin: 10px auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    margin: 0px 2% 80px 2%;
+    text-align: center;
+    width: 28%;
+}
+
+.product img {
+    width: 100%;
+    height: 600px;
+}
+.product p{
+    padding-bottom: 20px;
+}
+
+.blue {
+    color: #14213D !important;
+}
+
+
