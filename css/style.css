@@ -45,8 +45,8 @@ video{
     padding-top: 20px;
     overflow-y: auto;
     position: fixed;
-    left: 0;
     top: 0;
+    left: 0;
     text-align: center;
     width: 100%;
     z-index: 10000;
