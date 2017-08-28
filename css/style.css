@@ -42,6 +42,7 @@ video{
     padding: 0;
 }
 .navigation .toleft{
+    padding-top: 20px;
     overflow-y: auto;
     position: fixed;
     left: 0;
@@ -65,6 +66,8 @@ video{
     float: left;
     padding-left: 50px;
     padding-bottom: 20px;
+    width:140px;
+    height:85px;
 
 }
 
