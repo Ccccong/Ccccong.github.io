@@ -77,6 +77,10 @@ video{
     font-size: 32px;
     padding: 0px 50px;
 }
+.navigation .nav-items{
+    color: #FCA311;
+    font-family: 'Amatic SC', cursive;
+}
 
 .cover-content {
     box-sizing: border-box;
