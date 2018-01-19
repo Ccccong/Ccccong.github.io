@@ -1,96 +1,317 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <title>The Portfolio</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Motion - Responsive HTML Template</title>
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/hero-slider-style.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
-
-    <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
-    <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
-    <script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
-
+    <!-- Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--自动探测屏幕宽度，然后加载相应的CSS文件-->
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 400px)" href="tinyScreen.css" />
 
 </head>
 
 <body>
+<!--导航条-->
+<header id="header">
 
-<!-- Content -->
-<div class="cd-hero">
 
-    <!-- Navigation -->
-    <div class="cd-slider-nav">
-        <nav class="navbar">
-            <div class="tm-navbar-bg">
+    <nav id="main-navigation" class="navbar navbar-default navbar-fixed-top">
 
-                <a class="navbar-brand text-uppercase" href="#"><img height="80px" src="img/ibaicaiyu-Logo.png">爱白菜鱼</a>
-
-                <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse"
-                        data-target="#tmNavbar">
-                    &#9776;
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar"
+                        aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <div class="collapse navbar-toggleable-md text-xs-center text-uppercase tm-navbar" id="tmNavbar">
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item active selected">
-                            <a class="nav-link" href="#0" data-no="1">电影 <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#0" data-no="2">博客</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#0" data-no="3">玩乐</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#0" data-no="4">关于</a>
-                        </li>
-
-                    </ul>
-                </div>
+                <a id="brand-mobile" class="navbar-brand navbar-brand-center smoothScroll" href="#home">
+                    <img alt="爱白菜鱼" src="images/ibaicaiyu-Logo.png">
+                </a>
             </div>
 
-        </nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="nav navbar-nav">
+                    <li><a style="font-size: 1.4em;" class="" href="#services">电影</a></li>
+                    <li><a style="font-size: 1.4em;" class="" href="#portfolio">玩乐</a></li>
+                    <li id="brand-desktop">
+                        <a class="navbar-brand smoothScroll" href="#home">
+                            <img alt="Molly" src="images/ibaicaiyu-Logo.png">
+                        </a>
+                    </li>
+
+                    <li><a style="font-size: 1.4em;" class="" href="#blog">博客</a></li>
+                    <li><a style="font-size: 1.4em;" class="" href="#about">关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<!--导航条下的动画页-->
+<div id="cover">
+    <video autoplay muted loop>
+        <source src="mountains.mp4">
+    </video>
+    <div class="cover-content">
+        <h1>Enjoy Freedom</h1>
+        <h2>"A journey of a thousand miles begins with a single step". — Ibaicaiyu</h2>
+        <!--<a href="#" class="btn">To be freedom</a>-->
     </div>
-
-    <ul class="cd-hero-slider">  <!-- autoplay -->
-        <li class="selected">
-
-        </li>
-
-        <li>
+</div>
+<div class="products">
 
 
-        </li>
-        <!-- Page 3 -->
-        <li>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-4">
+                <a href="#imageModal4" class="portfolio-link" data-toggle="modal">
+                    <img src="images/thumb.jpg" class="img-responsive" alt="">
+                </a>
+                    <h3>神奇女侠</h3>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <a href="#imageModal5" class="portfolio-link" data-toggle="modal">
+                    <img src="images/thumb.jpg" class="img-responsive" alt="">
+                </a>
+                <h3>神奇女侠</h3>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <a href="#imageModal6" class="portfolio-link" data-toggle="modal">
+                    <img src="images/thumb.jpg" class="img-responsive" alt="">
+                </a>
+                <h3>神奇女侠</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-4">
+                <a href="#imageModal7" class="portfolio-link" data-toggle="modal">
+                    <img src="images/thumb.jpg" class="img-responsive" alt="">
+                </a>
+                <h3>神奇女侠</h3>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <a href="#imageModal8" class="portfolio-link" data-toggle="modal">
+                    <img src="images/thumb.jpg" class="img-responsive" alt="">
+                </a>
+                <h3>神奇女侠</h3>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <a href="#imageModal9" class="portfolio-link" data-toggle="modal">
+                    <img src="images/thumb.jpg" class="img-responsive" alt="">
+                </a>
+                <h3>神奇女侠</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-4">
+                <a href="#imageModal10" class="portfolio-link" data-toggle="modal">
+                    <img src="images/thumb.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <a href="#imageModal11" class="portfolio-link" data-toggle="modal">
+                    <img src="images/thumb.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <a href="#imageModal12" class="portfolio-link" data-toggle="modal">
+                    <img src="images/thumb.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---- Portfolio Modal ---->
+<div class="modal fade" id="imageModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">神奇女侠，点击图片迅雷下载</h4>
+            </div>
+            <div class="modal-body">
+                <a
+                   oncontextmenu=ThunderNetwork_SetHref(this)
+                   onclick="return OnDownloadClick_Simple(this)"
+                   href="magnet:?xt=urn:btih:7946A32C9F7C2524D323FFC1C15FA8547520BC40"
+                   thunderResTitle="迅雷下载"
+                   thunderType="04"
+                   thunderPid="57028"
+                   thunderHref="magnet:?xt=urn:btih:7946A32C9F7C2524D323FFC1C15FA8547520BC40">
+                    <img src="images/large_image.jpg" class="img-responsive img-centered" alt="">
+                </a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="imageModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">神奇女侠，点击图片迅雷下载</h4>
+            </div>
+            <div class="modal-body">
+                <img src="images/large_image.jpg" class="img-responsive img-centered" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="imageModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">神奇女侠，点击图片迅雷下载</h4>
+            </div>
+            <div class="modal-body">
+                <img src="images/large_image.jpg" class="img-responsive img-centered" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="imageModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">神奇女侠，点击图片迅雷下载</h4>
+            </div>
+            <div class="modal-body">
+                <img src="images/large_image.jpg" class="img-responsive img-centered" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="imageModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">神奇女侠，点击图片迅雷下载</h4>
+            </div>
+            <div class="modal-body">
+                <img src="images/large_image.jpg" class="img-responsive img-centered" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="imageModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">神奇女侠，点击图片迅雷下载</h4>
+            </div>
+            <div class="modal-body">
+                <a
+                   oncontextmenu=ThunderNetwork_SetHref(this)
+                   onclick="return OnDownloadClick_Simple(this)"
+                   href="magnet:?xt=urn:btih:A86F089B260099F5B32553DB1582D90BB548A932"
+                   thunderResTitle="迅雷下载"
+                   thunderType="04"
+                   thunderPid="000012"
+                   thunderHref="magnet:?xt=urn:btih:A86F089B260099F5B32553DB1582D90BB548A932">
+                    <img src="images/large_image.jpg" class="img-responsive img-centered" alt="">
+                </a>
 
-
-        </li>
-
-        <!-- Page 4 -->
-        <li>
-
-        </li>
-        <!-- Page 5 -->
-        <li>
-
-        </li>
-        <!-- Page 6 -->
-        <li>
-
-        </li>
-    </ul> <!-- .cd-hero-slider -->
-
-
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="imageModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">神奇女侠，点击图片迅雷下载</h4>
+            </div>
+            <div class="modal-body">
+                <img src="images/large_image.jpg" class="img-responsive img-centered" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="imageModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">神奇女侠，点击图片迅雷下载</h4>
+            </div>
+            <div class="modal-body">
+                <img src="images/large_image.jpg" class="img-responsive img-centered" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="imageModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">神奇女侠，点击图片迅雷下载</h4>
+            </div>
+            <div class="modal-body">
+                <img src="images/large_image.jpg" class="img-responsive img-centered" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
 </div>
 
 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 
 
 </body>
 </html>
+
