@@ -80,7 +80,7 @@ toc:
 ## Markdown Enhancements
 
 # Mathjax
-mathjax: 8# false (default), true
+mathjax: 8 # false (default), true
 mathjax_autoNumber: /page:num # false (default), true
 
 # Mermaid
