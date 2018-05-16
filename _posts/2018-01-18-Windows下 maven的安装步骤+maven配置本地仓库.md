@@ -3,7 +3,7 @@ layout: post
 title: Windows下 maven的安装步骤+maven配置本地仓库
 published: 'true'
 categories: ''
-tags: NOTEs
+tags: Notes
 ---
 1. 下载[maven](http://maven.apache.org/download.cgi)
 2. 把apache-maven-3.5.2-bin.zip解压目录D:\MyApplication\maven\apache-maven-3.5.2
