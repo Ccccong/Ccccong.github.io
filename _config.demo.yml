@@ -17,7 +17,7 @@
 ## => Site Settings
 ##############################
 text_color_theme: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-url: https://www.ibaicaiyu.com # the base hostname & protocol for your site e.g. https://www.someone.com
+url: https://ibaicaiyu.com # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /jekyll-TeXt-theme # does not include hostname
 title: TeXt Theme
 description: > # this means to ignore newlines until "Language & timezone"
@@ -33,20 +33,20 @@ timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_
 ## => Author and Social
 ##############################
 author:
-  name: ccc
-  email: congcong.cai@teradata.com # your Email address e.g. someone@site.com
-  facebook: ccc # your Facebook username
-  twitter: ccc # your Twitter username
-  github: ccc # your GitHub username
+  name: Someone
+  email: someone@somemail.com # your Email address e.g. someone@site.com
+  facebook: someone # your Facebook username
+  twitter: someone # your Twitter username
+  github: someone # your GitHub username
   googleplus: someone # your Google+ username
-  weibo: ccc # your Weibo username
-  douban: ccc # your Douban username
-  linkedin: ccc # your Linkedin username
+  weibo: someone # your Weibo username
+  douban: someone # your Douban username
+  linkedin: someone # your Linkedin username
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: Ccccong.github.io
+repository: kitian616/jekyll-TeXt-theme
 repository_tree: master
 
 
