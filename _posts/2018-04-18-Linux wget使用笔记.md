@@ -12,7 +12,7 @@ tags: Linux
 >wget -c -r -np -k -L -p http://docs.openstack.org/liberty/install-guide-rdo/
 
 在下载时。有用到外部域名的图片或连接。如果需要同时下载就要用-H参数。
-
+    <!--more-->
 >wget -np -nH -r –span-hosts www.xianren.org/pub/path/ 
 
  
