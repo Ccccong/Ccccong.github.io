@@ -2,7 +2,7 @@
 title: MyEclipse 无法查看第三方jar包文件源代码解决方法
 layout: post
 categories: ''
-tags: NOTES
+tags: Notes
 ---
 1. 下载反编译插件[jadClipse](https://sourceforge.net/projects/jadclipse/files/)
 2. 然后，将net.sf.jadclipse_3.3.0.jar拷贝到eclipse的plugins目录下
