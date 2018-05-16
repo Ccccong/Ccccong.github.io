@@ -5,6 +5,7 @@ categories: ''
 tags: Notes
 ---
 1. 下载反编译插件[jadClipse](https://sourceforge.net/projects/jadclipse/files/)
+<!--more-->
 2. 然后，将net.sf.jadclipse_3.3.0.jar拷贝到eclipse的plugins目录下
 3. 再删除eclipse的configuration目录下org.eclipse.update文件
 4. 关闭重新启动MyElipse

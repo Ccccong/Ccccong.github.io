@@ -15,7 +15,7 @@ tags: Teradata
     $dsn='dbi:ODBC:testdsn';
 
     my $dbh=DBI->connect($dsn,$userid,$passwd); 
-
+<!--more-->
 报错：
     
     TD-EXPRESS:~ # perl test.pl 
