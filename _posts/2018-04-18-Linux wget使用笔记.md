@@ -1,8 +1,8 @@
 ---
 title: Linux wget使用笔记
 layout: post
-categories: Linux
-tags: wget
+categories: wget
+tags: Linux
 ---
 # wget 使用方法
 
