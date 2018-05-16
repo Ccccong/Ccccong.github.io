@@ -91,14 +91,14 @@ leancloud:
 
 ## Paginate ##
 paginate: 7
-paginate_path: /blog/page:num
+paginate_path: /page:num
 
 ## Post excerpts ##
 excerpt_separator: <!--more-->
 excerpt_type: text # text | html
 
 ## Sources ##
-# sources: bootcss #eg: bootcss | unpkg
+# sources: bootcdn #eg: bootcdn | unpkg
 
 ## Build ##
 markdown: kramdown

@@ -2,37 +2,51 @@
 {%- include snippets/get-lang.html -%}
 <html lang="{{ __return }}">
   <head>
-    {%- include common-head.html -%}
-    {%- include head-icons-rel.html -%}
+    {%- include head.html -%}
     {%- assign __path = '/assets/css/blog.css' -%}
     {%- include snippets/prepend-baseurl.html -%}
     <link rel="stylesheet" href="{{ __return }}">
-    {%- include scripts/utils.html -%}
+    <script>
+      {%- include scripts/utils.js -%}
+      {%- include scripts/lib/throttle.js -%}
+      {%- include scripts/lib/lazyload.js -%}
+    </script>
   </head>
   <body>
     <div class="m-page-stage js-page-stage">
       <div class="m-page-content">
-        {%- include components/header.html -%}
+        {%- include header.html -%}
         <div class="m-page-main">{{ content }}</div>
       </div>
     </div>
-    {%- include components/footer.html -%}
-    {%- include scripts/common.html -%}
+    {%- include footer.html -%}
+    <script>
+      {%- include scripts/common.js -%}
+    </script>
+    {%- include scripts/variables.html -%}
     {%- if page.layout == "home" -%}
-      {%- include scripts/home.html -%}
+      <script>
+        {%- include scripts/home.js -%}
+      </script>
     {%- elsif page.layout == "page" -%}
-      {%- include scripts/page-post.html -%}
+      <script>
+        {%- include scripts/page-post-common.js -%}
+        {%- include scripts/page.js -%}
+      </script>
     {%- elsif page.layout == "post" -%}
-      {%- include scripts/page-post.html -%}
-      {%- include scripts/post.html -%}
+      <script>
+        {%- include scripts/page-post-common.js -%}
+        {%- include scripts/lib/affix.js -%}
+        {%- include scripts/lib/toc.js -%}
+        {%- include scripts/post.js -%}
+      </script>
     {%- elsif page.layout == "all" -%}
-      {%- include scripts/all.html -%}
+      <script>
+        {%- include scripts/all.js -%}
+      </script>
     {%- endif -%}
-    {%- include utils/mathjax.html -%}
-    {%- include utils/mermaid.html -%}
-    {%- include utils/chart.html -%}
-    {%- if jekyll.environment != "development" -%}
-      {%- include utils/google-analytics.html -%}
-    {%- endif -%}
+    {%- include markdown-enhancements.html -%}
+    {%- include pageview.html -%}
+    {%- include analytics.html -%}
   </body>
 </html>
