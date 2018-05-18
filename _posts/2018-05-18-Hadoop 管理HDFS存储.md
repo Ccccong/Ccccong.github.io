@@ -6,6 +6,7 @@ tags: Hadoop
 # 管理HDFS存储
 ## HDFS Architecture
 ![](https://i.imgur.com/7irFwLE.png)
+<!--more-->
 # HDFS写入文件的过程
 ![](https://i.imgur.com/pIvskFP.png)
 ![](https://i.imgur.com/v5DHTyo.png)

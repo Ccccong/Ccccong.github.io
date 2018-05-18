@@ -7,6 +7,7 @@ tags: Hadoop
 ##### YARN (unofficially “Yet Another Resource Negotiator”) 
 #### 如果您认为 HDFS 作为 Hadoop 的群集文件系统, YARN将成为群集操作系统。它是 Hadoop 的建筑中心。 ####
 ![](https://i.imgur.com/hbJSVBU.png)
+<!--more-->
 ##### YARN的目的：
 计算机操作系统 (如 Windows 或 Linux) 管理对已安装应用程序的资源 (如 CPU、内存和磁盘) 的访问。以类似的方式, YARN提供了一个托管框架, 允许多种类型的应用程序 (批处理、交互式、在线、流式等) 在整个群集上执行数据。就像计算机操作系统同时管理资源分配 (哪个应用程序现在可以访问 CPU、内存和磁盘, 如果争用是否存在, 还要等待哪一个) 和安全性 (当前用户是否有权执行请求的操作？, YARN管理各种类型的数据处理工作负载的资源分配, 优先级和调度作业。
 # YARN Architecture and Operation

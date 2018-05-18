@@ -11,7 +11,7 @@ tags: Hadoop
 
     hdfs dfs –ls file:///bin
 查看HDFS文件
-
+<!--more-->
     hdfs dfs –ls hdfs:///root
 # 访问HDFS
 ![](https://i.imgur.com/hSKTWaw.jpg)
