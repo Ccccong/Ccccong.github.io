@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: HDFS架构
+title: Hadoop HDFS架构
 categories: hdfs
 tags: Hadoop
 ---
