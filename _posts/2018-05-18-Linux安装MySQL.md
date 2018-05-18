@@ -12,6 +12,7 @@ CentOS 7.2的yum源中默认没有mysql,要先下载mysql的repo源
 ## 2. 安装mysql57-community-release-el7-8.noarch.rpm包
 `rpm -ivh mysql57-community-release-el7-8.noarch.rpm` 
 安装这个包后，会获得两个mysql的yum repo源：/etc/yum.repos.d/mysql-community.repo，/etc/yum.repos.d/mysql-community-source.repo
+<--!more-->
 ## 3.安装mysql
 `yum install mysql-server`
 ## 4. 启动mysql服务
