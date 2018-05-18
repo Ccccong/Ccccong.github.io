@@ -14,7 +14,7 @@ tags: Linux
 在下载时。有用到外部域名的图片或连接。如果需要同时下载就要用-H参数。
     <!--more-->
 >wget -np -nH -r –span-hosts www.xianren.org/pub/path/ 
-
+<!--more-->
  
 	
 **-c** 断点续传  
