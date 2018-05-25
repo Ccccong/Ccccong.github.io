@@ -9,8 +9,9 @@ tags: Java
 自己看我另一篇博客
 ## 2. 有个java项目
  自己随便写个Hello world也行
+ 
 ## 3. javac编译
-
+“-d”表示指定生成class文件的位置
  > javac ./src/getScriptNameNoParameter/Main.java -d ./bin/getScriptNameNoParameter
 
 ## java运行
