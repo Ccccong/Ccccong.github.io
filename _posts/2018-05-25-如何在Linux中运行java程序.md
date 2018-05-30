@@ -9,6 +9,7 @@ tags: Java
 自己看我另一篇博客
 ## 2. 有个java项目
  自己随便写个Hello world也行
+<!--more--> 
  
 ## 3. javac编译
 “-d”表示指定生成class文件的位置
