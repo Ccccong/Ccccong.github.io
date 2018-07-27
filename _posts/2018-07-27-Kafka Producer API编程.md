@@ -65,4 +65,6 @@ tags: ''
 
 `acks`控制着认为请求完成的条件,我们指定的“all”设置将导致阻塞记录的全部提交，这是最慢但最持久的设置。  
 
-如果请求失败，生产者可以自动重试，我们已经指定了<code>retries=0</code>就不会了。启用retries并且打开复制的可能性(请参阅文档<a href=" http://kafka.apache.org/document.html #semantic ">消息传递语义</a> for details)。
+如果请求失败，生产者可以自动重试，我们已经指定了<code>retries=0</code>就不会了。启用retries并且打开复制的可能性(请参阅文档<a href=" http://kafka.apache.org/document.html #semantic ">消息传递语义</a>了解详情)。  
+
+通过提供一组键值对作为配置来实例化producer,详情参考官网文档<a href="http://kafka.apache.org/documentation.html#producerconfigs">here</a>
