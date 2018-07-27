@@ -214,8 +214,8 @@ tags: ''
 1. 启动上面编写的java producer clinet  
 
 2. 开启后台消费端  
-        kafka-console-consumer --bootstrap-server 192.168.221.12:9092 --topic test0  
-
+  
+        kafka-console-consumer --bootstrap-server 192.168.221.12:9092 --topic test0
 3. 结果展示  
 
 ![TIM截图20180727125050](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180727125050.png)
