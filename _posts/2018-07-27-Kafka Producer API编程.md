@@ -1,8 +1,8 @@
 ---
 title: Kafka Producer API编程
 layout: post
-categories: ''
-tags: ''
+categories: 'kafka,java'
+tags: Hadoop
 ---
 ### 00参考文档
 [Kafka Documentament](http://kafka.apache.org/documentation/ "kafka官网文档")
