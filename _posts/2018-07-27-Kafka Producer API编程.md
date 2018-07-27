@@ -20,7 +20,9 @@ tags: ''
 4. idea 安装完善，manven,jdk，scala(查看源码用)等等
 
 ### 03 kafka producer代码解释 
+
 {% highlight javascript %}
+
 /**
  * 源码里面有解释
  */
@@ -52,4 +54,4 @@ public class KafkaClientSimpleTest {
     }
 }
 
-{%end{% highlight javascript %}}
+{% endhighlight javascript %}
