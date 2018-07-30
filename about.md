@@ -8,15 +8,10 @@ titles:
 key: page-about
 ---
 
-Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
+## 关于：
+> 2018毕业第一年，目前博主在一家外企工作，中文名为天睿信科技术有限公司，英文为[teradata](https://baike.baidu.com/item/Teradata/1792590?fr=aladdin)，[公司官网](https://www.teradata.com.cn/)，环境轻松自由，不加班和我们在学校学习的环境很相似，能持续的保持高效快捷的学习效率，这点是我最看重的。
 
-{% highlight javascript %}
-(() => console.log('hello, world!'))();
-{% endhighlight %}
+## 原则
 
-## Skills
-
-- Linux shell perl
-- java spring hibernate 
-- HTML css JavaScript
-- Hive,YARN,HDFS
+1. 掌握源头知识点、一手资料（英文文档书籍等类），掌握其架构，拒绝告诉式学习，拒绝劳动力式编程。
+2. 在实践过程中使用官网的最新版本，无论是工具还是语言，前期虽然掌握曲线较大，但是后期能衔接各种东西，使用起来较简单，毕竟编程是往任性话，简单化方向前进。
