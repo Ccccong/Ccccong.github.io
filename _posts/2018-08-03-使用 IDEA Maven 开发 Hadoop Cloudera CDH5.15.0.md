@@ -81,3 +81,5 @@ categories: ''
 {% endhighlight xml %}
 
 其中spark.version为` <spark.version>2.3.0</spark.version>`
+
+#### 自此几个顶级的依赖就添加完成了，以后需要什么依赖我们再添加到pom.xml文件就行了
