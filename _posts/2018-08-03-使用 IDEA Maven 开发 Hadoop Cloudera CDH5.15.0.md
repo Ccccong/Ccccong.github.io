@@ -13,7 +13,7 @@ categories: ''
 
 使用的文档为cloudera官网的 [release-notes文档](https://www.cloudera.com/documentation/enterprise/release-notes/topics/cdh_vd_cdh5_maven_repo.html)
 
-## 02详细信息截图
+## 02repository官网信息
 
 ![TIM截图20180803095301](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180803095301.png)  
 
@@ -28,3 +28,21 @@ categories: ''
         </repository>
 
 {% endhighlight xml %}
+
+## 04配置hadoop manven依赖
+
+还是在这份[文档](https://www.cloudera.com/documentation/enterprise/release-notes/topics/cdh_vd_cdh5_maven_repo_515x.html)中有写  
+
+![TIM截图20180803101503](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180803101503.png)  
+
+{% highlight xml %}
+
+    	<dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-client</artifactId>
+            <version>${hadoop.version}</version>
+        </dependency>
+
+{%  endhighlight xml %}
+
+其中hadoop.version为`<hadoop.version>2.6.0-cdh5.15.0</hadoop.version>`
