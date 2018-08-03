@@ -45,4 +45,39 @@ categories: ''
 
 {%  endhighlight xml %}
 
-其中hadoop.version为`<hadoop.version>2.6.0-cdh5.15.0</hadoop.version>`
+其中hadoop.version为`<hadoop.version>2.6.0-mr1-cdh5.15.0</hadoop.version>`
+
+## 05配置hbase依赖
+同理配置hbase依赖，用于存储sparkStreaming的数据
+{% highlight xml %}
+
+      <!--hbase 依赖-->
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-client</artifactId>
+            <version>${hbase.version}</version>
+        </dependency>
+
+{% endhighlight xml %}
+
+其中hbase.version为`<hadoop.version>2.6.0-mr1-cdh5.15.0</hadoop.version>`
+
+## 06配置sparkStreaming依赖
+
+参考[spark官网](http://spark.apache.org/docs/latest/streaming-programming-guide.html)
+
+
+![TIM截图20180803125541](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180803125541.png)  
+
+{% highlight xml %}
+
+        <!--SparkStreaming依赖-->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.11</artifactId>
+            <version>${spark.version}</version>
+        </dependency>
+        
+{% endhighlight xml %}
+
+其中spark.version为` <spark.version>2.3.0</spark.version>`
