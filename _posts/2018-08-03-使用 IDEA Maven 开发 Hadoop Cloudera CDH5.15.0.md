@@ -12,7 +12,7 @@ categories: ''
 ## 01参考文档
 
 使用的文档为cloudera官网的 [release-notes文档](https://www.cloudera.com/documentation/enterprise/release-notes/topics/cdh_vd_cdh5_maven_repo.html)
-
+<!--more-->
 ## 02repository官网信息
 
 ![TIM截图20180803095301](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180803095301.png)  
