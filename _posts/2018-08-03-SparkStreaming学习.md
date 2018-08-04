@@ -16,8 +16,8 @@ tags: ''
 
 >spark Streaming 流处理 
 
-#![spark-stack](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/spark-stack.png)  
-
+![spark-stack](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/spark-stack.png)  
+<!--more-->
 SparkStreaming是核心Spark API的扩展,它支持可伸缩、高吞吐量、容错性处理实时数据流。数据可以从Kafka、Flume、Kinesis或TCP socket等许多来源中获取,可以使用像map、reduce、join和window等高级功能来处理复杂的算法来处理数据。最后,处理数据可以被推送到文件系统、数据库和live仪表板。事实上,您可以在数据流上应用Spark的机器学习和图形处理算法。 
 
 ![streaming-arch](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/streaming-arch.png)  
@@ -40,5 +40,7 @@ Spark流提供了一个高级抽象，称为离散流或DStream，它表示连�
 
 ## 03集成spark生态系统的使用
 ## 04发展史
-## 05词频统计功能着手入门
+## 05词频统计功能着手入门  
+在官网的[A Quick Example](http://spark.apache.org/docs/latest/streaming-programming-guide.html#a-quick-example)中已经有了详细的介绍
+
 ## 06工作原理
