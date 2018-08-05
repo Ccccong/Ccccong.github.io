@@ -42,7 +42,14 @@ Spark流提供了一个高级抽象，称为离散流或DStream，它表示连�
 ## 04发展史
 ## 05词频统计功能着手入门  
 在官网的[A Quick Example](http://spark.apache.org/docs/latest/streaming-programming-guide.html#a-quick-example)中已经有了详细的介绍  
-![TIM截图20180805223520](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180805223520.png) 
+![TIM截图20180805223520](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180805223520.png)  
+
+如果要联调Kafka输出到控制台，参考这个命令`run-example streaming.KafkaWordCount localhost:2181  test test1 1 ` 
+  
+    
+语法模式如下：  
+
+            /opt/cloudera/parcels/CDH/lib/spark/bin/run-example streaming.KafkaWordCount <zkQuorum> <group> <topics> <numThreads>
 
 
-## 06工作原
+## 06工作原理
