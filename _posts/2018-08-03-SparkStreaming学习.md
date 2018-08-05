@@ -1,8 +1,8 @@
 ---
 title: SparkStreaming学习
 layout: post
-categories: 'spark2'
-tags: 'Hadoop'
+categories: ''
+tags: ''
 ---
 ## 01概述
 我们继续看官网[spark.apache.org](http://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)，在官网上详细介绍了spark以及快速入门，版本修复，Bug存在等等
@@ -41,6 +41,8 @@ Spark流提供了一个高级抽象，称为离散流或DStream，它表示连�
 ## 03集成spark生态系统的使用
 ## 04发展史
 ## 05词频统计功能着手入门  
-在官网的[A Quick Example](http://spark.apache.org/docs/latest/streaming-programming-guide.html#a-quick-example)中已经有了详细的介绍
+在官网的[A Quick Example](http://spark.apache.org/docs/latest/streaming-programming-guide.html#a-quick-example)中已经有了详细的介绍  
+![TIM截图20180805223520](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180805223520.png) 
 
-## 06工作原理
+
+## 06工作原
