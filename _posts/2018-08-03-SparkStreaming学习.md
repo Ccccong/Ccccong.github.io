@@ -4,6 +4,8 @@ layout: post
 categories: ''
 tags: ''
 ---
+## 00背景
+    在阅读完公司的PPT文档后，继续深入学习sparkStreaming,完成官网的Quick Start,理解先关概念，架构
 ## 01概述
 我们继续看官网[spark.apache.org](http://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)，在官网上详细介绍了spark以及快速入门，版本修复，Bug存在等等
 
