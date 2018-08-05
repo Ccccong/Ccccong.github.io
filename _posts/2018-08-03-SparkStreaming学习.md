@@ -48,10 +48,17 @@ Spark流提供了一个高级抽象，称为离散流或DStream，它表示连�
 在官网的[A Quick Example](http://spark.apache.org/docs/latest/streaming-programming-guide.html#a-quick-example)中已经有了详细的介绍  
 ![TIM截图20180805223520](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180805223520.png)  
 
-如果要联调Kafka输出到控制台，参考这个命令`run-example streaming.KafkaWordCount localhost:2181  test test1 1 ` 
+如果要联调Kafka输出到控制台，参考这个命令`run-example streaming.KafkaWordCount localhost:2181  test test1 1 `   
+
+语法模式如下：  
+
+            /opt/cloudera/parcels/CDH/lib/spark/bin/run-example streaming.KafkaWordCount <zkQuorum> <group> <topics> <numThreads>
+
+
 
 [单词计数GitHub源码scala版](https://github.com/apache/spark/blob/v2.3.0/examples/src/main/scala/org/apache/spark/examples/streaming/NetworkWordCount.scala)
 当然我也找到了我们以后会用着的[kafka java版本](https://github.com/apache/spark/blob/v2.3.0/examples/src/main/java/org/apache/spark/examples/streaming/JavaDirectKafkaWordCount.java)，在这里先做下笔记  
+
 {% highlight scala %}
 
 	/*
@@ -118,9 +125,5 @@ Spark流提供了一个高级抽象，称为离散流或DStream，它表示连�
 {% endhighlight scala %}
  
     
-语法模式如下：  
-
-            /opt/cloudera/parcels/CDH/lib/spark/bin/run-example streaming.KafkaWordCount <zkQuorum> <group> <topics> <numThreads>
-
 
 ## 06工作原理
