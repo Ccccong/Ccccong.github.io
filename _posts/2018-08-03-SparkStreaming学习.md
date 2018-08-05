@@ -1,8 +1,8 @@
 ---
 title: SparkStreaming学习
 layout: post
-categories: ''
-tags: ''
+categories: SparkStreaming
+tags: Hadoop
 ---
 ## 00背景
 
@@ -50,7 +50,8 @@ Spark流提供了一个高级抽象，称为离散流或DStream，它表示连�
 
 如果要联调Kafka输出到控制台，参考这个命令`run-example streaming.KafkaWordCount localhost:2181  test test1 1 ` 
 
-[GitHub源码scala版](https://github.com/apache/spark/blob/v2.3.0/examples/src/main/scala/org/apache/spark/examples/streaming/NetworkWordCount.scala)
+[单词计数GitHub源码scala版](https://github.com/apache/spark/blob/v2.3.0/examples/src/main/scala/org/apache/spark/examples/streaming/NetworkWordCount.scala)
+当然我也找到了我们以后会用着的[kafka java版本](https://github.com/apache/spark/blob/v2.3.0/examples/src/main/java/org/apache/spark/examples/streaming/JavaDirectKafkaWordCount.java)，在这里先做下笔记  
 {% highlight scala %}
 
 	/*
