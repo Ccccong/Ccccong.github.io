@@ -4,7 +4,7 @@ layout: post
 tags: Hadoop
 categories: SparkStreaming
 ---
-## 00初始化StreamingContext
+## 00.StreamingContext
 要初始化SparkStreaming程序，必须创建一个StreamingContext对象，它是所有Spark流功能的主要入口点。  
 ### 两种方法初始化
 #### 可以从SparkConf对象创建JavaStreamingContext对象。 
@@ -45,4 +45,13 @@ categories: SparkStreaming
 - stop() on StreamingContext also stops the SparkContext. To stop only the StreamingContext, set the optional parameter of stop() called stopSparkContext to false.
 - stop()在StreamingContext中也停止了SparkContext。要仅停止StreamingContext，请将stopSparkContext()的可选参数设置为false
 - A SparkContext can be re-used to create multiple StreamingContexts, as long as the previous StreamingContext is stopped (without stopping the SparkContext) before the next StreamingContext is created.
-- 可以重用SparkContext来创建多个StreamingContext，只要在创建下一个StreamingContext之前停止前面的StreamingContext(不停止SparkContext)。
+- 可以重用SparkContext来创建多个StreamingContext，只要在创建下一个StreamingContext之前停止前面的StreamingContext(不停止SparkContext)。  
+
+## 01.Discretized Streams (DStreams)
+Discretized Stream 或者是 DStream 是Spark流提供的基本抽象。它表示一个连续的数据流，要么是从源接收的输入数据流，要么通过转换输入流生成的经过处理的数据流。在内部，DStream由一系列连续的RDDs表示，这是Spark对不可变的分布式数据集的抽象(请参阅Spark编程指南了解更多细节)。DStream中的每个RDD都包含来自某个间隔的数据，如下图所示。  
+
+![DStreaming RDD](http://spark.apache.org/docs/2.3.0/img/streaming-dstream.png)
+
+应用于DStream的任何操作都转换为底层RDD上的操作。例如，在先前将行流转换为字的示例中，flatMap操作应用于linesDStream中的每个RDD 以生成DStream的 wordsRDD。如下图所示。  
+
+![](http://spark.apache.org/docs/2.3.0/img/streaming-dstream-ops.png)
