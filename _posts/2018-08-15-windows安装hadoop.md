@@ -1,6 +1,7 @@
 ---
 title: windows安装hadoop
 layout: post
+tags: Hadoop
 ---
 ## 00.背景
 在学习sparkStreaming时遇见报错，不能远程连接服务器中的CDH环境，只能本地开发环境搭建个hadoop试试运气了
