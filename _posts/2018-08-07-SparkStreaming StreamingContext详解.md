@@ -23,7 +23,7 @@ categories: SparkStreaming
     JavaStreamingContext ssc = new JavaStreamingContext(sc, Durations.seconds(1));
     
 {% endhighlight java%} 
-
+<!--more-->
 其中的具体参数请查看源码（idea点击右上角的放大镜图标，搜索StreamingContext,download source）  
 
 ##### 在定义了content之后，您必须执行以下操作：
