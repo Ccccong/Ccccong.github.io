@@ -95,3 +95,5 @@ JDK1.8
 在命令提示符中输入可以看到已经启动了如下服务
 
 ![TIM截图20180815184739](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180815184739.png)
+
+启动StreamingContext，进行单词计数，就不报错了，大功告成！
