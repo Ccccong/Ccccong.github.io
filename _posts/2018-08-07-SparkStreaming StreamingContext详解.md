@@ -1,5 +1,5 @@
 ---
-title: SparkStreaming StreamingContext详解
+title: SparkStreaming 详解
 layout: post
 tags: Hadoop
 categories: SparkStreaming
