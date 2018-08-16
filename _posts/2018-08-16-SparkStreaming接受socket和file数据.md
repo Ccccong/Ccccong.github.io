@@ -15,7 +15,7 @@ categories: SparkStreaming
 >架构，代码，概念不清楚的请查看上几篇笔记
 
 
-{% highlight java %}
+{% highlight java%} 
 
 	package com.teradata.springStreaming;
 	
@@ -56,7 +56,7 @@ categories: SparkStreaming
 	}
 
 
-{% endhighlight java %}
+{% endhighlight java%}
 
 
 #### 在控制台输入如下命令开放端口，输入单词计数：
