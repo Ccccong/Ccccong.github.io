@@ -56,7 +56,7 @@ categories: SparkStreaming
 	}
 
 
-{% enghighlight java %}
+{% endhighlight java %}
 
 
 #### 在控制台输入如下命令开放端口，输入单词计数：
