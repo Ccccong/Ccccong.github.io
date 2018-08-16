@@ -72,4 +72,12 @@ Spark Streaming提供两类内置流媒体源
 - 在本地运行Spark Streaming程序时，请勿使用“local”或“local [1]”作为主URL。这两种方法都意味着只有一个线程将用于本地运行任务。如果您正在使用基于接收器的输入DStream（例如套接字，Kafka，Flume等），则单线程将用于运行接收器，不会留下任何线程来处理接收到的数据。因此，在本地运行时，始终使用“local [ n ]”作为主URL，其中n >要运行的接收器数量（有关如何设置主服务器的信息，请参阅[Spark属性](http://spark.apache.org/docs/2.3.0/configuration.html#spark-properties)）。   
 
 - 将逻辑扩展到在集群上运行，分配给Spark Streaming应用程序的核心数必须大于接收器数。否则系统将接收数据，但无法处理数据。  
--
+ 
+ 
+## 03.Transformations on DStreams
+
+与RDD类似，转换允许修改来自输入DStream的数据。DStreams支持普通Spark RDD上可用的许多转换。一些常见的如下
+
+
+
+![TIM截图20180816101831](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180816101831.png)
