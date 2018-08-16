@@ -65,3 +65,9 @@ tags: Hadoop
 #### 结果
 
 ![TIM截图20180816105338](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180816105338.png)
+
+
+
+#### 也可以改造成文件单词计数，如下见官网
+
+![TIM截图20180816110535](http://p1vuoao0b.bkt.clouddn.com/JekyllWriter/TIM截图20180816110535.png)
