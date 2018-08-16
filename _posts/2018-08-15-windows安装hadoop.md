@@ -2,6 +2,7 @@
 title: windows安装hadoop
 layout: post
 tags: Hadoop
+categories: ''
 ---
 ## 00.背景
 在学习sparkStreaming时遇见报错，不能远程连接服务器中的CDH环境，只能本地开发环境搭建个hadoop试试运气了
@@ -17,7 +18,7 @@ JDK1.8
 链接：`https://pan.baidu.com/s/1o7YTlJO`
 
 复制解压开的bin文件和etc文件到hadoop-2.6.5文件中，并替换原有的bin和etc文件
-
+<!--more-->
 
 ## 03.配置环境变量
 
