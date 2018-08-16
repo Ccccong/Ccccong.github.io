@@ -15,6 +15,7 @@ categories: SparkStreaming
 >架构，代码，概念不清楚的请查看上几篇笔记
 
 
+<!--more-->	
 {% highlight java%} 
 
 	package com.teradata.springStreaming;
@@ -26,7 +27,6 @@ categories: SparkStreaming
 	import org.apache.spark.streaming.api.java.JavaReceiverInputDStream;
 	import org.apache.spark.streaming.api.java.JavaStreamingContext;
 	import scala.Tuple2;
-<!--more-->	
 	import java.util.Arrays;
 	
 	public class NetworkWordCount {
@@ -56,7 +56,7 @@ categories: SparkStreaming
 	}
 
 
-{% endhighlight java%}
+{% endhighlight java %}
 
 
 #### 在控制台输入如下命令开放端口，输入单词计数：
