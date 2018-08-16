@@ -25,7 +25,7 @@ tags: Hadoop
 	import org.apache.spark.streaming.api.java.JavaReceiverInputDStream;
 	import org.apache.spark.streaming.api.java.JavaStreamingContext;
 	import scala.Tuple2;
-	
+<!--more-->	
 	import java.util.Arrays;
 	
 	public class NetworkWordCount {
