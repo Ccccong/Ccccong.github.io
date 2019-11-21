@@ -39,6 +39,9 @@ Hive不是为在线事务处理而设计的。它最适合用于传统的数据�
 - DATE—a date
 - BINARY—a sequence of bytes  
 ### 复杂数据类型
-- Structs： 可以采用.来访问其中的元素，例如：column c中存储了 {a INT; b INT}，那就可以用c.a来访问
+学习博客：https://ask.hellobi.com/blog/marey_marey111/2063  
+- Structs： 可以采用.来访问其中的元素，例如：column c中存储了 {a INT; b INT}，那就可以用c.a来访问 
+- Maps：
+- Arrays： 
 
 参考文档：https://cwiki.apache.org/confluence/display/Hive/Tutorial
