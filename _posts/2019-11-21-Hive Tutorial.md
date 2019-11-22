@@ -20,6 +20,7 @@ Hive不是为在线事务处理而设计的。它最适合用于传统的数据�
 ### __Partitions: __  分区 
 ### __Buckets：__     同一分区的数据可以细分，将想同的key再分至一个bucket中。类似Hash分区 
 
+分区参考博客:https://blog.csdn.net/alen_liu_sz/article/details/80887255  
 ### 数据类型
 #### 简单数据类型
 
